@@ -35,7 +35,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: akhileshns/heroku-deploy@v3.12.12
-    with:
-      heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-      heroku_app_name: "patipon-github-action-02"
-      heroku_email: "61160103@go.buu.ac.th"
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "patipon-github-action-02"
+        heroku_email: "61160103@go.buu.ac.th"
